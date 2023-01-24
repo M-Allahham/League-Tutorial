@@ -11,21 +11,17 @@ The Injector has code for syscalls that was shamelessly taken from KebsCS' Leagu
 
 It is also a fantastic resource that you should take a look at! You can find it here: https://github.com/KebsCS/League-DirectX11-Internal/tree/main/LeagueDx11Internal
 
-ExampleDLL:
-
+# ExampleDLL:
 This is a super basic DLL example, nothing special about it.
 
 
-Injector:
-
+# Injector:
 A DLL injector intended to inject into League of Legends.exe. Make sure that you change line 51 in main.cpp to your DLL's path. 
 
 
-InternalTutorial:
-
+# InternalTutorial:
 A basic orbwalker for part 2 of my tutorial "series"
 
 
-MemoryPractice:
-
+# MemoryPractice:
 An autohealer from part 1 of my tutorial "series"
