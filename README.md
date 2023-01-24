@@ -4,7 +4,7 @@ This repository contains code from two tutorials I've posted on unknowncheats.me
 You can find the tutorials here:
 
 https://www.unknowncheats.me/forum/league-of-legends/567734-beginner-tutorial.html
-
+https://www.unknowncheats.me/forum/league-of-legends/568259-beginner-tutorial.html
 
 
 The Injector has code for syscalls that was shamelessly taken from KebsCS' LeagueInternal repository
