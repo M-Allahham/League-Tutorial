@@ -12,6 +12,8 @@ The Injector has code for syscalls that was shamelessly taken from KebsCS' Leagu
 
 It is also a fantastic resource that you should take a look at! You can find it here: https://github.com/KebsCS/League-DirectX11-Internal/tree/main/LeagueDx11Internal
 
+Everything was written in Visual Studio 2019. Compile on x86 Release, update offsets and modify line 51 of main.cpp to your DLL's path in the injector if you want to use it.
+
 # ExampleDLL:
 This is a super basic DLL example, nothing special about it.
 
