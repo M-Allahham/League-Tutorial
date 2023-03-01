@@ -149,6 +149,9 @@ void __stdcall OrbWalker() {
 	GameObject* LocalPlayer = (GameObject*)(*(DWORD*)(BaseAddress + oLocalPlayer));
 	std::vector<GameObject*> Champions;
 
+	// This will be our target!
+	GameObject* target = new GameObject();
+	
 	// Defining the functions we care about
 	typedef bool(__thiscall* fnIsAlive)(GameObject* obj);
 	typedef float(__cdecl* fnGetAttackDelay)(GameObject* obj);
@@ -178,9 +181,6 @@ void __stdcall OrbWalker() {
 			if (!isChatOpen) {
 				// Make sure Champions list is empty
 				Champions.clear();
-
-				// This will be our target!
-				GameObject* target = new GameObject();
 
 				// Load Champions' positions
 				int vectorSize = (DWORD)(*(DWORD*)(*(DWORD*)(BaseAddress + HeroList) + 0x8));
